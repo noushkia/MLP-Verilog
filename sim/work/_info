@@ -1,0 +1,242 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vaccumulator
+Z0 !s110 1638193520
+!i10b 1
+!s100 UTHDhP2V`VLd26L2DB0^k3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IjVJ5dhAXMklVbX;oNYcCF1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/UT/S5/CAD/Mid
+Z4 w1638193515
+Z5 8E:/UT/S5/CAD/Mid/datapath.v
+Z6 FE:/UT/S5/CAD/Mid/datapath.v
+!i122 45
+L0 11 5
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1638193520.000000
+Z9 !s107 E:/UT/S5/CAD/Mid/datapath.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/Mid/datapath.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vcomb
+Z13 !s110 1638193096
+!i10b 1
+!s100 MU@O?:1g>aT9S`O[e;knN0
+R1
+IcF[zLUP9?dF<fzAGY10TE2
+R2
+R3
+w1638193092
+8E:/UT/S5/CAD/Mid/comb.v
+FE:/UT/S5/CAD/Mid/comb.v
+!i122 42
+L0 3 8
+R7
+r1
+!s85 0
+31
+Z14 !s108 1638193096.000000
+!s107 E:/UT/S5/CAD/Mid/comb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/Mid/comb.v|
+!i113 1
+R11
+R12
+vcomparator
+R0
+!i10b 1
+!s100 d8NQBjIFTfPgf4RU8VLii2
+R1
+I[f`QYaGOQiRCY3Z`gGVgj2
+R2
+R3
+R4
+R5
+R6
+!i122 45
+L0 7 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vcontroller
+R13
+!i10b 1
+!s100 ?Aeo?[L:ZILKfD3eKBGSC2
+R1
+IkaJkS5H[IOEP1IaeVjWiK3
+R2
+R3
+w1638193073
+8E:/UT/S5/CAD/Mid/controller.v
+FE:/UT/S5/CAD/Mid/controller.v
+!i122 40
+L0 3 44
+R7
+r1
+!s85 0
+31
+R14
+!s107 E:/UT/S5/CAD/Mid/controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/Mid/controller.v|
+!i113 1
+R11
+R12
+vdatapath
+R0
+!i10b 1
+!s100 DVTH7bQeN:co<VEN`jm<13
+R1
+Ib0:<eHlIVoLVPo1@6WTVU3
+R2
+R3
+R4
+R5
+R6
+!i122 45
+L0 35 28
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vmux2to1
+R0
+!i10b 1
+!s100 O^a?XWeDXRQ3j`2oS<R103
+R1
+IkUa`Gz?zM@K?123cbU:i^0
+R2
+R3
+R4
+R5
+R6
+!i122 45
+L0 3 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vregister
+R0
+!i10b 1
+!s100 ;0gjSVT@oU_8mCnHV:XTj1
+R1
+ICoKLOR[4V]c`RLem3D6YM0
+R2
+R3
+R4
+R5
+R6
+!i122 45
+L0 21 13
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vstack
+!s110 1638191688
+!i10b 1
+!s100 leMhb:h?0ZnmUNbbm`aYF3
+R1
+IAV:ZmMd7<KoRBdEkC]z3V2
+R2
+R3
+w1638191679
+8E:/UT/S5/CAD/Mid/stack.v
+FE:/UT/S5/CAD/Mid/stack.v
+!i122 30
+L0 3 19
+R7
+r1
+!s85 0
+31
+!s108 1638191688.000000
+!s107 E:/UT/S5/CAD/Mid/stack.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/Mid/stack.v|
+!i113 1
+R11
+R12
+vsubstractor
+R0
+!i10b 1
+!s100 jILUk1697FLdgW6X2`nS@1
+R1
+IlXn_azj1;kD3Y<ZEMN]5L2
+R2
+R3
+R4
+R5
+R6
+!i122 45
+L0 17 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vTB
+!s110 1638194081
+!i10b 1
+!s100 mWS6O5aF9_Xk`fCnRBY4a2
+R1
+IIUag]37h`ZVXSL94I8;3L0
+R2
+R3
+w1638194074
+8E:/UT/S5/CAD/Mid/TB.v
+FE:/UT/S5/CAD/Mid/TB.v
+!i122 53
+L0 3 17
+R7
+r1
+!s85 0
+31
+!s108 1638194081.000000
+!s107 E:/UT/S5/CAD/Mid/TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/Mid/TB.v|
+!i113 1
+R11
+R12
+n@t@b
