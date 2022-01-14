@@ -32,8 +32,34 @@ Z10 !s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/Mid/datapath.v|
 !i113 1
 Z11 o-work work
 Z12 tCvgOpt 0
+vAdder
+!s10a 1642147777
+Z13 !s110 1642164558
+!i10b 1
+!s100 LOiYcN7bM2RcfZ@0z57NM3
+R1
+ICoE8lXjfzY]HaU^8_[:Y70
+R2
+Z14 dE:/UT/S5/CAD/CA4/trunk/MLP-Verilog/sim
+w1642147777
+8../src/hdl/Adder.v
+F../src/hdl/Adder.v
+!i122 55
+L0 1 13
+R7
+r1
+!s85 0
+31
+Z15 !s108 1642164557.000000
+Z16 !s107 ../src/hdl/Register.v|../src/hdl/ReLU.v|../src/hdl/NeuronController.v|../src/hdl/Neuron.v|../src/hdl/Multiplier.v|../src/hdl/MLPWrapper.v|../src/hdl/MLP.v|../src/hdl/MAC.v|../src/hdl/LabelFinder.v|../src/hdl/InputSelector.v|../src/hdl/Counter.v|../src/hdl/Adder.v|
+Z17 !s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/Adder.v|../src/hdl/Counter.v|../src/hdl/InputSelector.v|../src/hdl/LabelFinder.v|../src/hdl/MAC.v|../src/hdl/MLP.v|../src/hdl/MLPWrapper.v|../src/hdl/Multiplier.v|../src/hdl/Neuron.v|../src/hdl/NeuronController.v|../src/hdl/ReLU.v|../src/hdl/Register.v|
+!i113 1
+Z18 o+acc -source
+Z19 !s92 +acc -source +define+SIM
+R12
+n@adder
 vcomb
-Z13 !s110 1638193096
+Z20 !s110 1638193096
 !i10b 1
 !s100 MU@O?:1g>aT9S`O[e;knN0
 R1
@@ -44,12 +70,12 @@ w1638193092
 8E:/UT/S5/CAD/Mid/comb.v
 FE:/UT/S5/CAD/Mid/comb.v
 !i122 42
-L0 3 8
+Z21 L0 3 8
 R7
 r1
 !s85 0
 31
-Z14 !s108 1638193096.000000
+Z22 !s108 1638193096.000000
 !s107 E:/UT/S5/CAD/Mid/comb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/Mid/comb.v|
 !i113 1
@@ -79,7 +105,7 @@ R10
 R11
 R12
 vcontroller
-R13
+R20
 !i10b 1
 !s100 ?Aeo?[L:ZILKfD3eKBGSC2
 R1
@@ -95,12 +121,38 @@ R7
 r1
 !s85 0
 31
-R14
+R22
 !s107 E:/UT/S5/CAD/Mid/controller.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/Mid/controller.v|
 !i113 1
 R11
 R12
+vCounter
+!s10a 1642165622
+!s110 1642165628
+!i10b 1
+!s100 ]FN;QSg>4LHWUG=S3a8KL0
+R1
+I7eQ5lZARf9W<D?i>inJDF2
+R2
+R14
+w1642165622
+8../src/hdl/Counter.v
+F../src/hdl/Counter.v
+!i122 67
+L0 1 12
+R7
+r1
+!s85 0
+31
+!s108 1642165628.000000
+R16
+R17
+!i113 1
+R18
+R19
+R12
+n@counter
 vdatapath
 R0
 !i10b 1
@@ -124,6 +176,162 @@ R10
 !i113 1
 R11
 R12
+vInputSelector
+!s10a 1642150150
+R13
+!i10b 1
+!s100 MDRoNm[eoE>7OT0WhCFKZ1
+R1
+I3;=XE1iXLPNhhWl=6XLRz0
+R2
+R14
+w1642150150
+8../src/hdl/InputSelector.v
+F../src/hdl/InputSelector.v
+!i122 55
+L0 1 10
+R7
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R18
+R19
+R12
+n@input@selector
+vLabelFinder
+!s10a 1642152523
+R13
+!i10b 1
+!s100 a>:WTnYX12XH1fXWUbd^O3
+R1
+I97a?emT1d6F>]b`=@In;13
+R2
+R14
+w1642152523
+8../src/hdl/LabelFinder.v
+F../src/hdl/LabelFinder.v
+!i122 55
+L0 3 33
+R7
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R18
+R19
+R12
+n@label@finder
+vMAC
+!s10a 1642150000
+R13
+!i10b 1
+!s100 ISa[h5gPi?f7m9ZkIn?>h1
+R1
+IDAiMZO0dO@<lFXX8>=X:Y3
+R2
+R14
+w1642150000
+8../src/hdl/MAC.v
+F../src/hdl/MAC.v
+!i122 55
+L0 3 15
+R7
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R18
+R19
+R12
+n@m@a@c
+vMLP
+!s10a 1642166467
+!s110 1642166532
+!i10b 1
+!s100 CYYG@RLbNbWcg]HWdgiJH1
+R1
+IJcS]@BHI;@`j_;`H1160O1
+R2
+R14
+w1642166467
+8../src/hdl/MLP.v
+F../src/hdl/MLP.v
+!i122 68
+L0 1 98
+R7
+r1
+!s85 0
+31
+!s108 1642166532.000000
+R16
+R17
+!i113 1
+R18
+R19
+R12
+n@m@l@p
+vMLPWrapper
+!s10a 1642165225
+!s110 1642165235
+!i10b 1
+!s100 f<N@Z5:CNbRkJJTc_fc9c2
+R1
+ImSchH<3dzYTJz<>;7ez7e0
+R2
+R14
+w1642165225
+8../src/hdl/MLPWrapper.v
+F../src/hdl/MLPWrapper.v
+!i122 63
+L0 1 45
+R7
+r1
+!s85 0
+31
+!s108 1642165235.000000
+R16
+R17
+!i113 1
+R18
+R19
+R12
+n@m@l@p@wrapper
+vMultiplier
+!s10a 1642147774
+R13
+!i10b 1
+!s100 5>OzFQIH0NnYDlHaGnA@12
+R1
+I2[LX_^Mno]VA203gdk;Bm2
+R2
+R14
+w1642147774
+8../src/hdl/Multiplier.v
+F../src/hdl/Multiplier.v
+!i122 55
+L0 1 14
+R7
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R18
+R19
+R12
+n@multiplier
 vmux2to1
 R0
 !i10b 1
@@ -147,6 +355,84 @@ R10
 !i113 1
 R11
 R12
+vNeuron
+!s10a 1642150813
+R13
+!i10b 1
+!s100 G9>diPHAE>B9Zjf>8GE802
+R1
+IZZ2jmcN>48MCeCklaTkQN0
+R2
+R14
+w1642150813
+8../src/hdl/Neuron.v
+F../src/hdl/Neuron.v
+!i122 55
+L0 1 30
+R7
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R18
+R19
+R12
+n@neuron
+vNeuronController
+!s10a 1642150754
+R13
+!i10b 1
+!s100 J_47YBdnESQVN]nG2cUM41
+R1
+ILFPzD4LW?W[fZl:mcW>8j3
+R2
+R14
+w1642150754
+8../src/hdl/NeuronController.v
+F../src/hdl/NeuronController.v
+!i122 55
+L0 4 21
+R7
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R18
+R19
+R12
+n@neuron@controller
+vReadTB
+!s10a 1642153766
+!s110 1642153775
+!i10b 1
+!s100 Jj^JND9I8Ag4geTNM<ER73
+R1
+IWf=MnNPDMPKMDQB9XWR_71
+R2
+R14
+w1642153766
+Z23 8./tb/TB.v
+Z24 F./tb/TB.v
+!i122 54
+L0 1 25
+R7
+r1
+!s85 0
+31
+!s108 1642153775.000000
+!s107 ./tb/TB.v|
+Z25 !s90 -reportprogress|300|+acc|-incr|-source|+incdir+../src/inc|+define+SIM|./tb/TB.v|
+!i113 1
+R18
+Z26 !s92 +acc -source +incdir+../src/inc +define+SIM
+R12
+n@read@t@b
 vregister
 R0
 !i10b 1
@@ -170,6 +456,58 @@ R10
 !i113 1
 R11
 R12
+vRegister
+!s10a 1642165501
+!s110 1642165526
+!i10b 1
+!s100 c4U3HgPF4nh`YoIzz4>cF2
+R1
+IYjTGc]?@7nG=fG3^^MTK;0
+R2
+R14
+w1642165501
+8../src/hdl/Register.v
+F../src/hdl/Register.v
+!i122 66
+L0 1 16
+R7
+r1
+!s85 0
+31
+!s108 1642165525.000000
+R16
+R17
+!i113 1
+R18
+R19
+R12
+n@register
+vReLU
+!s10a 1642148240
+R13
+!i10b 1
+!s100 RUI^B0z]lDYDailjzagY31
+R1
+IVLf9h6`iVbjlZI4:;ZVX^0
+R2
+R14
+w1642148240
+8../src/hdl/ReLU.v
+F../src/hdl/ReLU.v
+!i122 55
+R21
+R7
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R18
+R19
+R12
+n@re@l@u
 vstack
 !s110 1638191688
 !i10b 1
@@ -217,26 +555,27 @@ R10
 R11
 R12
 vTB
-!s110 1638194081
+!s110 1642167971
 !i10b 1
-!s100 mWS6O5aF9_Xk`fCnRBY4a2
+!s100 Y^^eif;k7zRGHEHP3a5@W2
 R1
-IIUag]37h`ZVXSL94I8;3L0
+ICgTW72L4BC8P^lzSL[3[K0
 R2
-R3
-w1638194074
-8E:/UT/S5/CAD/Mid/TB.v
-FE:/UT/S5/CAD/Mid/TB.v
-!i122 53
-L0 3 17
+R14
+w1642167949
+R23
+R24
+!i122 73
+L0 3 120
 R7
 r1
 !s85 0
 31
-!s108 1638194081.000000
-!s107 E:/UT/S5/CAD/Mid/TB.v|
-!s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/Mid/TB.v|
+!s108 1642167971.000000
+Z27 !s107 ./tb/TB.v|
+R25
 !i113 1
-R11
+R18
+R26
 R12
 n@t@b

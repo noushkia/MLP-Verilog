@@ -12,10 +12,7 @@
 
 #============================ Add verilog files  ===============================
 # Pleas add other module here	
-	vlog 	+acc -incr -source  +define+SIM 	$hdl_path/controller.v
-	vlog 	+acc -incr -source  +define+SIM 	$hdl_path/datapath.v
-	vlog 	+acc -incr -source  +define+SIM 	$hdl_path/comb.v
-	vlog 	+acc -incr -source  +define+SIM 	$hdl_path/stack.v
+	vlog 	+acc -incr -source  +define+SIM 	$hdl_path/*.v
 		
 	vlog 	+acc -incr -source  +incdir+$inc_path +define+SIM 	./tb/$TB.v
 	onerror {break}
@@ -29,7 +26,7 @@
 
 
 	add wave -hex -group 	 	{TB}				sim:/$TB/*
-	add wave -hex -group 	 	{top}				sim:/$TB/Comb/*	
+	add wave -hex -group 	 	{top}				sim:/$TB/MLPWrapper/*	
 	add wave -hex -group -r		{all}				sim:/$TB/*
 
 #=========================== Configure wave signals =============================

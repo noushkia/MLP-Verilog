@@ -5,7 +5,7 @@ module Counter #(parameter n = 1) (
     output [n-1:0] count
 );
     
-    wire [n-1:0] next_value;
+    wire [n-1:0] next_count;
     Register #(n) Count(clk, clk_en, rst, next_count, count);
     assign next_count = count + 1'b1;
 

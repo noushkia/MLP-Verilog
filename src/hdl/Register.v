@@ -1,4 +1,4 @@
-module Register #(parameter n = 1) (
+module Register #(parameter n = 8) (
     input clk, // Clock
     input ld_en, // Load
     input rst, // Reset

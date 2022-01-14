@@ -1,3 +1,6 @@
+// Check if the unit is finished
+// Reset if finished
+// Find the next address to calculate mac
 module NeuronController #(parameter number_of_input = 2, clog2_number_of_input = 1) (
     input clk,    // Clock
     input clk_en, // Clock Enable

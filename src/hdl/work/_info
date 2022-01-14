@@ -1,0 +1,323 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vAdder
+Z0 !s110 1642150274
+!i10b 1
+!s100 LOiYcN7bM2RcfZ@0z57NM3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I2I57EFiFI>a]bi1hM<^b91
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl
+w1642147777
+8E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Adder.v
+FE:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Adder.v
+!i122 0
+L0 1 13
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1642150274.000000
+!s107 E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Adder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@adder
+vCounter
+R0
+!i10b 1
+!s100 8VO3=;PQJ@K?Z4:WkQE`K0
+R1
+IEzS>VWZZ>m>ccH6dWiVPI2
+R2
+R3
+w1642145751
+8E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Counter.v
+FE:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Counter.v
+!i122 1
+L0 1 12
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Counter.v|
+!i113 1
+R6
+R7
+n@counter
+vInputSelector
+R0
+!i10b 1
+!s100 MDRoNm[eoE>7OT0WhCFKZ1
+R1
+I4oSimn@ITWIcAzW21JfzI3
+R2
+R3
+w1642150150
+8E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/InputSelector.v
+FE:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/InputSelector.v
+!i122 2
+L0 1 10
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/InputSelector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/InputSelector.v|
+!i113 1
+R6
+R7
+n@input@selector
+vLabelFinder
+!s110 1642154369
+!i10b 1
+!s100 a>:WTnYX12XH1fXWUbd^O3
+R1
+IdGT6Gfk]b83[TPbc``<jL2
+R2
+R3
+w1642152523
+8E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/LabelFinder.v
+FE:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/LabelFinder.v
+!i122 13
+L0 3 33
+R4
+r1
+!s85 0
+31
+!s108 1642154369.000000
+!s107 E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/LabelFinder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/LabelFinder.v|
+!i113 1
+R6
+R7
+n@label@finder
+vMAC
+Z8 !s110 1642150275
+!i10b 1
+!s100 ISa[h5gPi?f7m9ZkIn?>h1
+R1
+I5UamKb6MAQbN_eP^KHmjk3
+R2
+R3
+w1642150000
+8E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/MAC.v
+FE:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/MAC.v
+!i122 3
+L0 3 15
+R4
+r1
+!s85 0
+31
+Z9 !s108 1642150275.000000
+!s107 E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/MAC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/MAC.v|
+!i113 1
+R6
+R7
+n@m@a@c
+vMLP
+Z10 !s110 1642164270
+!i10b 1
+!s100 ]aSK1P[o0jWT4k?:FkRZ11
+R1
+IH[<DN^LjM2k6lCIfJ6IGf3
+R2
+R3
+w1642164151
+8E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/MLP.v
+FE:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/MLP.v
+!i122 18
+L0 1 98
+R4
+r1
+!s85 0
+31
+Z11 !s108 1642164270.000000
+!s107 E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/MLP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/MLP.v|
+!i113 1
+R6
+R7
+n@m@l@p
+vMLPWrapper
+R10
+!i10b 1
+!s100 9B=THO]H?A[Wbb;0LI?>43
+R1
+I_2_klWB4Cn90[@URGkZ@]1
+R2
+R3
+w1642164145
+8E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/MLPWrapper.v
+FE:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/MLPWrapper.v
+!i122 19
+L0 1 45
+R4
+r1
+!s85 0
+31
+R11
+!s107 E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/MLPWrapper.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/MLPWrapper.v|
+!i113 1
+R6
+R7
+n@m@l@p@wrapper
+vMultiplier
+R8
+!i10b 1
+!s100 5>OzFQIH0NnYDlHaGnA@12
+R1
+ImbmJh:T^WX;;0>_58EojG0
+R2
+R3
+w1642147774
+8E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Multiplier.v
+FE:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Multiplier.v
+!i122 4
+L0 1 14
+R4
+r1
+!s85 0
+31
+R9
+!s107 E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Multiplier.v|
+!i113 1
+R6
+R7
+n@multiplier
+vNeuron
+!s110 1642152499
+!i10b 1
+!s100 G9>diPHAE>B9Zjf>8GE802
+R1
+InMC:K@XLQhC6ETF7Bi:e=1
+R2
+R3
+w1642150813
+8E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Neuron.v
+FE:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Neuron.v
+!i122 11
+L0 1 30
+R4
+r1
+!s85 0
+31
+!s108 1642152498.000000
+!s107 E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Neuron.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Neuron.v|
+!i113 1
+R6
+R7
+n@neuron
+vNeuronController
+!s110 1642150766
+!i10b 1
+!s100 J_47YBdnESQVN]nG2cUM41
+R1
+IZfD@dd7KMEhKG5mb4Bc`j3
+R2
+R3
+w1642150754
+8E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/NeuronController.v
+FE:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/NeuronController.v
+!i122 10
+L0 4 21
+R4
+r1
+!s85 0
+31
+!s108 1642150766.000000
+!s107 E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/NeuronController.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/NeuronController.v|
+!i113 1
+R6
+R7
+n@neuron@controller
+vReadTB
+R10
+!i10b 1
+!s100 VWhlQbAohO1oV2X:QCOgD2
+R1
+II3cKmJ4DX3UaAB=:MUO3L3
+R2
+R3
+w1642164242
+8E:\UT\S5\CAD\CA4\trunk\MLP-Verilog\src\hdl\TB.v
+FE:\UT\S5\CAD\CA4\trunk\MLP-Verilog\src\hdl\TB.v
+!i122 20
+L0 1 25
+R4
+r1
+!s85 0
+31
+R11
+!s107 E:\UT\S5\CAD\CA4\trunk\MLP-Verilog\src\hdl\TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\UT\S5\CAD\CA4\trunk\MLP-Verilog\src\hdl\TB.v|
+!i113 1
+R6
+R7
+n@read@t@b
+vRegister
+Z12 !s110 1642150276
+!i10b 1
+!s100 NV44aKTnKQ]SKh22ViR@]1
+R1
+InQAAR_;KCDgzAdHjhShj<3
+R2
+R3
+w1642145863
+8E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Register.v
+FE:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Register.v
+!i122 7
+L0 1 16
+R4
+r1
+!s85 0
+31
+Z13 !s108 1642150276.000000
+!s107 E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/Register.v|
+!i113 1
+R6
+R7
+n@register
+vReLU
+R12
+!i10b 1
+!s100 RUI^B0z]lDYDailjzagY31
+R1
+IY_HFH2D]zQVc@TeGVlIi83
+R2
+R3
+w1642148240
+8E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/ReLU.v
+FE:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/ReLU.v
+!i122 8
+L0 3 8
+R4
+r1
+!s85 0
+31
+R13
+!s107 E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/ReLU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/CA4/trunk/MLP-Verilog/src/hdl/ReLU.v|
+!i113 1
+R6
+R7
+n@re@l@u

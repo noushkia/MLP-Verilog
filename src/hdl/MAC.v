@@ -1,41 +1,17 @@
 // Multiply and Accumulate
 
-module MAC(
-    a,
-    w,
-    out
+module MAC #(parameter n = 1, m = 0) (
+    input clk, clk_en, rst, ctrl_rst, use_bias, 
+    input [n-1:0] bias,
+    input signed [n-1:0] data,
+    input signed [n-1:0] weight,
+    output signed [n-1:0] sum_result
 );
-    input [62 * 8 - 1 : 0] a, w;
-    
-    //a[0]: a[7 : 0]  
-    //      a[15 : 8]
-    //      a[]
-    output [20 : 0] out;  
 
-    reg [20 : 0] negs ;
-    reg [20 : 0] pos ;
-	integer i;
-	always @(a, w) begin
-		negs = 21'b0;
-        pos = 21'b0;
-		for (i = 0 ; i < 62 ; i = i + 1)
-		begin
-			if (a[8 * i + 7] ^ w[8 * i + 7] == 1'b1) //negative
-            begin
-				negs = negs + a[8 * i +: 7] * w[8 * i +: 7];
-                //$display("i = %d, neg: %d %d    ", i, a[8 * i +: 7], w[8 * i +: 7]);
-            end
-			else
-            begin
-				pos = pos + a[8 * i +: 7] * w[8 * i +: 7];  
-                //$display("i = %d, pos %d %d", i, a[8 * i +: 7], w[8 * i +: 7]);      
-            end
-		end
-	end
+    wire signed [n-1:0] mult_result, sum_result_registered;
 
-    wire [19 : 0] pn, np;
-    assign pn = pos - negs;
-    assign np = negs - pos;
-    assign out = (pos > negs) ? {1'b0, pn} : {1'b1, np};
+    Multiplier #(n, m) multiplier(data, weight, mult_result);
+    Adder #(n, m) adder((use_bias ? bias : mult_result), sum_result_registered, sum_result);
+    Register #(n) accumulate_reg(clk, clk_en, rst | ctrl_rst, sum_result, sum_result_registered);
 
 endmodule

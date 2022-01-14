@@ -1,4 +1,3 @@
-`default_nettype none
 module InputSelector #(parameter n = 1, number_of_input = 2, clog2_number_of_input = 1) (
     input [clog2_number_of_input-1:0] addr,
     input [number_of_input*n-1:0] datas,
