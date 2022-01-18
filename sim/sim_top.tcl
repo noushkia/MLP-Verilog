@@ -26,7 +26,7 @@
 
 
 	add wave -hex -group 	 	{TB}				sim:/$TB/*
-	add wave -hex -group 	 	{top}				sim:/$TB/MLPWrapper/*	
+	add wave -hex -group 	 	{top}				sim:/$TB/MLP/*	
 	add wave -hex -group -r		{all}				sim:/$TB/*
 
 #=========================== Configure wave signals =============================
