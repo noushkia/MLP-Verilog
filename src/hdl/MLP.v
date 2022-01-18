@@ -33,8 +33,6 @@ module MLP #(parameter
     assign hidden_layer_rst = state == 2'd2;
     assign output_layer_rst = state == 2'd0;
 
-    //TODO: Check files
-
     // Get hidden layer bias and weight
     initial $readmemh("../src/Input and Parameters/fixed_b1_sm.dat", hidden_layers_bias, 0, size_of_hidden_layer-1);
     initial $readmemh("../src/Input and Parameters/fixed_w1_sm.dat", hidden_layers_weights, 0, size_of_hidden_layer-1);
@@ -48,7 +46,7 @@ module MLP #(parameter
     genvar i;
     generate
         for(i = 0; i < size_of_hidden_layer; i = i + 1) begin : hidden_layer
-            Neuron #(n, m, number_of_inputs, clog2_number_of_inputs) neuron(
+            PU #(n, number_of_inputs, clog2_number_of_inputs) neuron(
                 clk,
                 clk_en,
                 rst | hidden_layer_rst ,
@@ -64,7 +62,7 @@ module MLP #(parameter
     //--------------------------------------Output Layer--------------------------------------//
     generate
         for(i = 0; i < size_of_output_layer; i = i + 1) begin : output_layer
-            Neuron #(n, m, size_of_hidden_layer, clog2_size_of_hidden_layer) neuron(
+            PU #(n, size_of_hidden_layer, clog2_size_of_hidden_layer) neuron(
                 clk,
                 clk_en,
                 rst | output_layer_rst ,
@@ -90,7 +88,7 @@ module MLP #(parameter
                 state <= 2'd1;
             else if(output_layer_ready & state == 2'd1) // Output layer
                 state <= 2'd2;
-            else if(state == 2'd2) // Actimation layer (max layer)
+            else if(state == 2'd2) // Activation layer (max layer)
                 state <= 2'd0;
         end
     end

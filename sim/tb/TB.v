@@ -2,7 +2,7 @@
 
 module TB();
     parameter
-        n = 16,
+        n = 8,
         m = 6,
         number_of_inputs = 62,
         size_of_hidden_layer = 30,
@@ -73,16 +73,16 @@ module TB();
             $display("\t%1d: 'h%h", 17, mlp_wrapper.mlp.hidden_layer[17].neuron.result);
             $display("\t%1d: 'h%h", 18, mlp_wrapper.mlp.hidden_layer[18].neuron.result);
             $display("\t%1d: 'h%h", 19, mlp_wrapper.mlp.hidden_layer[19].neuron.result);
-            $display("\t%1d: 'h%h", 20, mlp_wrapper.mlp.hidden_layer[20].neuron.result);
-            $display("\t%1d: 'h%h", 21, mlp_wrapper.mlp.hidden_layer[21].neuron.result);
-            $display("\t%1d: 'h%h", 22, mlp_wrapper.mlp.hidden_layer[22].neuron.result);
-            $display("\t%1d: 'h%h", 23, mlp_wrapper.mlp.hidden_layer[23].neuron.result);
-            $display("\t%1d: 'h%h", 24, mlp_wrapper.mlp.hidden_layer[24].neuron.result);
-            $display("\t%1d: 'h%h", 25, mlp_wrapper.mlp.hidden_layer[25].neuron.result);
-            $display("\t%1d: 'h%h", 26, mlp_wrapper.mlp.hidden_layer[26].neuron.result);
-            $display("\t%1d: 'h%h", 27, mlp_wrapper.mlp.hidden_layer[27].neuron.result);
-            $display("\t%1d: 'h%h", 28, mlp_wrapper.mlp.hidden_layer[28].neuron.result);
-            $display("\t%1d: 'h%h", 29, mlp_wrapper.mlp.hidden_layer[29].neuron.result);
+            // $display("\t%1d: 'h%h", 20, mlp_wrapper.mlp.hidden_layer[20].neuron.result);
+            // $display("\t%1d: 'h%h", 21, mlp_wrapper.mlp.hidden_layer[21].neuron.result);
+            // $display("\t%1d: 'h%h", 22, mlp_wrapper.mlp.hidden_layer[22].neuron.result);
+            // $display("\t%1d: 'h%h", 23, mlp_wrapper.mlp.hidden_layer[23].neuron.result);
+            // $display("\t%1d: 'h%h", 24, mlp_wrapper.mlp.hidden_layer[24].neuron.result);
+            // $display("\t%1d: 'h%h", 25, mlp_wrapper.mlp.hidden_layer[25].neuron.result);
+            // $display("\t%1d: 'h%h", 26, mlp_wrapper.mlp.hidden_layer[26].neuron.result);
+            // $display("\t%1d: 'h%h", 27, mlp_wrapper.mlp.hidden_layer[27].neuron.result);
+            // $display("\t%1d: 'h%h", 28, mlp_wrapper.mlp.hidden_layer[28].neuron.result);
+            // $display("\t%1d: 'h%h", 29, mlp_wrapper.mlp.hidden_layer[29].neuron.result);
         end
     end
     always @(posedge ready) begin : Output_Layer

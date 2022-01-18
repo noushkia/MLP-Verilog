@@ -1,6 +1,7 @@
-module Adder #(parameter n = 1, m = 0) (
-    input signed [n-1:0] in1, in2,
-    output signed [n-1:0] result
+module Adder #(parameter n = 8) (
+    input signed [2*n-1:0] in1,
+    input signed [3*n-4:0]in2,
+    output signed [3*n-4:0] result
 );
 
     wire [n:0] out = in1 + in2;

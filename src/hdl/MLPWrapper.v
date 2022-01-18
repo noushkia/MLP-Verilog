@@ -1,5 +1,5 @@
 module MLPWrapper #(parameter
-    n = 16,                    //4(bits of data)*4(convert hex to bin)
+    n = 8,                    //4(bits of data)*4(convert hex to bin)
     m = 6,
     number_of_inputs = 62,
     size_of_hidden_layer = 30, // 30 neurons on hidden layer

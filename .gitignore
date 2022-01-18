@@ -1,0 +1,8 @@
+./sim/dump.vcd
+./sim/vsim.*
+
+./src/hdl/work
+./src/hdl/FCA.cr.mti
+./src/hdl/FCA.mpf
+./src/hdl/transcript
+./src/hdl/vsim.wlf

@@ -1,6 +1,6 @@
 // ReLU activation function
 // Output is zero id input is negative, otherwise it's identical
-module ReLU #(parameter n = 1, m = 0) (
+module ReLU #(parameter n = 8) (
     input signed [n-1:0] in,
     output signed [n-1:0] out
 );

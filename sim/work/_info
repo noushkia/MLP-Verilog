@@ -33,26 +33,26 @@ Z10 !s90 -reportprogress|300|-work|work|-stats=none|E:/UT/S5/CAD/Mid/datapath.v|
 Z11 o-work work
 Z12 tCvgOpt 0
 vAdder
-!s10a 1642147777
-Z13 !s110 1642164558
+!s10a 1642239670
+Z13 !s110 1642240498
 !i10b 1
-!s100 LOiYcN7bM2RcfZ@0z57NM3
+!s100 m=>3<5flPQeJ1CkRL`f>@0
 R1
-ICoE8lXjfzY]HaU^8_[:Y70
+Ihdk6STid7z[b16CAhzFHo1
 R2
 Z14 dE:/UT/S5/CAD/CA4/trunk/MLP-Verilog/sim
-w1642147777
+w1642239670
 8../src/hdl/Adder.v
 F../src/hdl/Adder.v
-!i122 55
-L0 1 13
+!i122 80
+L0 1 14
 R7
 r1
 !s85 0
 31
-Z15 !s108 1642164557.000000
-Z16 !s107 ../src/hdl/Register.v|../src/hdl/ReLU.v|../src/hdl/NeuronController.v|../src/hdl/Neuron.v|../src/hdl/Multiplier.v|../src/hdl/MLPWrapper.v|../src/hdl/MLP.v|../src/hdl/MAC.v|../src/hdl/LabelFinder.v|../src/hdl/InputSelector.v|../src/hdl/Counter.v|../src/hdl/Adder.v|
-Z17 !s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/Adder.v|../src/hdl/Counter.v|../src/hdl/InputSelector.v|../src/hdl/LabelFinder.v|../src/hdl/MAC.v|../src/hdl/MLP.v|../src/hdl/MLPWrapper.v|../src/hdl/Multiplier.v|../src/hdl/Neuron.v|../src/hdl/NeuronController.v|../src/hdl/ReLU.v|../src/hdl/Register.v|
+Z15 !s108 1642240497.000000
+Z16 !s107 ../src/hdl/Register.v|../src/hdl/ReLU.v|../src/hdl/PU.v|../src/hdl/NeuronController.v|../src/hdl/Neuron.v|../src/hdl/Multiplier.v|../src/hdl/MLPWrapper.v|../src/hdl/MLP.v|../src/hdl/LabelFinder.v|../src/hdl/InputSelector.v|../src/hdl/Counter.v|../src/hdl/Adder.v|
+Z17 !s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/Adder.v|../src/hdl/Counter.v|../src/hdl/InputSelector.v|../src/hdl/LabelFinder.v|../src/hdl/MLP.v|../src/hdl/MLPWrapper.v|../src/hdl/Multiplier.v|../src/hdl/Neuron.v|../src/hdl/NeuronController.v|../src/hdl/PU.v|../src/hdl/ReLU.v|../src/hdl/Register.v|
 !i113 1
 Z18 o+acc -source
 Z19 !s92 +acc -source +define+SIM
@@ -146,8 +146,8 @@ r1
 !s85 0
 31
 !s108 1642165628.000000
-R16
-R17
+Z23 !s107 ../src/hdl/Register.v|../src/hdl/ReLU.v|../src/hdl/NeuronController.v|../src/hdl/Neuron.v|../src/hdl/Multiplier.v|../src/hdl/MLPWrapper.v|../src/hdl/MLP.v|../src/hdl/MAC.v|../src/hdl/LabelFinder.v|../src/hdl/InputSelector.v|../src/hdl/Counter.v|../src/hdl/Adder.v|
+Z24 !s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/Adder.v|../src/hdl/Counter.v|../src/hdl/InputSelector.v|../src/hdl/LabelFinder.v|../src/hdl/MAC.v|../src/hdl/MLP.v|../src/hdl/MLPWrapper.v|../src/hdl/Multiplier.v|../src/hdl/Neuron.v|../src/hdl/NeuronController.v|../src/hdl/ReLU.v|../src/hdl/Register.v|
 !i113 1
 R18
 R19
@@ -177,19 +177,19 @@ R10
 R11
 R12
 vInputSelector
-!s10a 1642150150
+!s10a 1642240322
 R13
 !i10b 1
-!s100 MDRoNm[eoE>7OT0WhCFKZ1
+!s100 AQ@mOe>nQaJO>4fKh0Sna1
 R1
-I3;=XE1iXLPNhhWl=6XLRz0
+IlNDThX:e1Je6j@GWLIKgR3
 R2
 R14
-w1642150150
+w1642240322
 8../src/hdl/InputSelector.v
 F../src/hdl/InputSelector.v
-!i122 55
-L0 1 10
+!i122 80
+L0 1 9
 R7
 r1
 !s85 0
@@ -203,18 +203,18 @@ R19
 R12
 n@input@selector
 vLabelFinder
-!s10a 1642152523
+!s10a 1642236051
 R13
 !i10b 1
-!s100 a>:WTnYX12XH1fXWUbd^O3
+!s100 B[oASZ_XFNahNKo2V5kkl3
 R1
-I97a?emT1d6F>]b`=@In;13
+I]AfDTNGILo2@0QncLQbmP2
 R2
 R14
-w1642152523
+w1642236051
 8../src/hdl/LabelFinder.v
 F../src/hdl/LabelFinder.v
-!i122 55
+!i122 80
 L0 3 33
 R7
 r1
@@ -230,7 +230,7 @@ R12
 n@label@finder
 vMAC
 !s10a 1642150000
-R13
+!s110 1642164558
 !i10b 1
 !s100 ISa[h5gPi?f7m9ZkIn?>h1
 R1
@@ -246,33 +246,33 @@ R7
 r1
 !s85 0
 31
-R15
-R16
-R17
+!s108 1642164557.000000
+R23
+R24
 !i113 1
 R18
 R19
 R12
 n@m@a@c
 vMLP
-!s10a 1642166467
-!s110 1642166532
+!s10a 1642240483
+R13
 !i10b 1
-!s100 CYYG@RLbNbWcg]HWdgiJH1
+!s100 FHomPU`0dfgf3:KdOZZP;1
 R1
-IJcS]@BHI;@`j_;`H1160O1
+IEXd@dKT]]^Vz6H`bO[ego0
 R2
 R14
-w1642166467
+w1642240483
 8../src/hdl/MLP.v
 F../src/hdl/MLP.v
-!i122 68
-L0 1 98
+!i122 80
+L0 1 96
 R7
 r1
 !s85 0
 31
-!s108 1642166532.000000
+R15
 R16
 R17
 !i113 1
@@ -281,24 +281,24 @@ R19
 R12
 n@m@l@p
 vMLPWrapper
-!s10a 1642165225
-!s110 1642165235
+!s10a 1642240739
+!s110 1642240746
 !i10b 1
-!s100 f<N@Z5:CNbRkJJTc_fc9c2
+!s100 N<Ml4NHI=Z^H;=^o5CjN<3
 R1
-ImSchH<3dzYTJz<>;7ez7e0
+ISclYf`6LPVQh0`9OP4hK^3
 R2
 R14
-w1642165225
+w1642240739
 8../src/hdl/MLPWrapper.v
 F../src/hdl/MLPWrapper.v
-!i122 63
+!i122 83
 L0 1 45
 R7
 r1
 !s85 0
 31
-!s108 1642165235.000000
+!s108 1642240746.000000
 R16
 R17
 !i113 1
@@ -307,19 +307,19 @@ R19
 R12
 n@m@l@p@wrapper
 vMultiplier
-!s10a 1642147774
+!s10a 1642239222
 R13
 !i10b 1
-!s100 5>OzFQIH0NnYDlHaGnA@12
+!s100 8@GHcPRo^G]LfD[fP4jGl1
 R1
-I2[LX_^Mno]VA203gdk;Bm2
+IDRGYzTdaIlTYk96:NH4O=0
 R2
 R14
-w1642147774
+w1642239222
 8../src/hdl/Multiplier.v
 F../src/hdl/Multiplier.v
-!i122 55
-L0 1 14
+!i122 80
+L0 1 7
 R7
 r1
 !s85 0
@@ -356,19 +356,19 @@ R10
 R11
 R12
 vNeuron
-!s10a 1642150813
+!s10a 1642237204
 R13
 !i10b 1
-!s100 G9>diPHAE>B9Zjf>8GE802
+!s100 o@nfClBjhX9NZSUeHjoN:2
 R1
-IZZ2jmcN>48MCeCklaTkQN0
+I5a>PSkBne>nBMo1S0o4HX1
 R2
 R14
-w1642150813
+w1642237204
 8../src/hdl/Neuron.v
 F../src/hdl/Neuron.v
-!i122 55
-L0 1 30
+!i122 80
+L0 1 34
 R7
 r1
 !s85 0
@@ -382,18 +382,18 @@ R19
 R12
 n@neuron
 vNeuronController
-!s10a 1642150754
+!s10a 1642240348
 R13
 !i10b 1
-!s100 J_47YBdnESQVN]nG2cUM41
+!s100 HQOQ@CccZ`LF;hEebAz=L1
 R1
-ILFPzD4LW?W[fZl:mcW>8j3
+IgeEK71jgZeFgll00@=m[f0
 R2
 R14
-w1642150754
+w1642240348
 8../src/hdl/NeuronController.v
 F../src/hdl/NeuronController.v
-!i122 55
+!i122 80
 L0 4 21
 R7
 r1
@@ -407,6 +407,31 @@ R18
 R19
 R12
 n@neuron@controller
+vPU
+!s110 1642241136
+!i10b 1
+!s100 VZ_[S<`f3130^U3@5KH4z0
+R1
+IBa2<AdDDC;4P?iaGCioUJ1
+R2
+R14
+w1642241125
+8../src/hdl/PU.v
+F../src/hdl/PU.v
+!i122 84
+L0 1 36
+R7
+r1
+!s85 0
+31
+!s108 1642241136.000000
+R16
+R17
+!i113 1
+R18
+R19
+R12
+n@p@u
 vReadTB
 !s10a 1642153766
 !s110 1642153775
@@ -417,8 +442,8 @@ IWf=MnNPDMPKMDQB9XWR_71
 R2
 R14
 w1642153766
-Z23 8./tb/TB.v
-Z24 F./tb/TB.v
+Z25 8./tb/TB.v
+Z26 F./tb/TB.v
 !i122 54
 L0 1 25
 R7
@@ -426,11 +451,11 @@ r1
 !s85 0
 31
 !s108 1642153775.000000
-!s107 ./tb/TB.v|
-Z25 !s90 -reportprogress|300|+acc|-incr|-source|+incdir+../src/inc|+define+SIM|./tb/TB.v|
+Z27 !s107 ./tb/TB.v|
+Z28 !s90 -reportprogress|300|+acc|-incr|-source|+incdir+../src/inc|+define+SIM|./tb/TB.v|
 !i113 1
 R18
-Z26 !s92 +acc -source +incdir+../src/inc +define+SIM
+Z29 !s92 +acc -source +incdir+../src/inc +define+SIM
 R12
 n@read@t@b
 vregister
@@ -475,26 +500,26 @@ r1
 !s85 0
 31
 !s108 1642165525.000000
-R16
-R17
+R23
+R24
 !i113 1
 R18
 R19
 R12
 n@register
 vReLU
-!s10a 1642148240
+!s10a 1642239736
 R13
 !i10b 1
-!s100 RUI^B0z]lDYDailjzagY31
+!s100 :9NDEF?F]1P4l7dD4D>UR0
 R1
-IVLf9h6`iVbjlZI4:;ZVX^0
+I63D6=5E74@nTGQ53h9Fle0
 R2
 R14
-w1642148240
+w1642239736
 8../src/hdl/ReLU.v
 F../src/hdl/ReLU.v
-!i122 55
+!i122 80
 R21
 R7
 r1
@@ -555,27 +580,28 @@ R10
 R11
 R12
 vTB
-!s110 1642167971
+!s10a 1642240584
+!s110 1642240588
 !i10b 1
-!s100 Y^^eif;k7zRGHEHP3a5@W2
+!s100 ;e2lI6>?h9j1S32_iU2031
 R1
-ICgTW72L4BC8P^lzSL[3[K0
+IenXa6LkB5li1aBdiDjFX70
 R2
 R14
-w1642167949
-R23
-R24
-!i122 73
+w1642240584
+R25
+R26
+!i122 82
 L0 3 120
 R7
 r1
 !s85 0
 31
-!s108 1642167971.000000
-Z27 !s107 ./tb/TB.v|
-R25
+!s108 1642240588.000000
+R27
+R28
 !i113 1
 R18
-R26
+R29
 R12
 n@t@b
