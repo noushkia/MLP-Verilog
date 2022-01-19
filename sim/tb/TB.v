@@ -3,7 +3,7 @@
 module TB();
     parameter
         n = 8,
-        input_size = 10,
+        input_size = 8,
         number_of_inputs = 62,
         size_of_hidden_layer = 30,
         size_of_output_layer = 10,

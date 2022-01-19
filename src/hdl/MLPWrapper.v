@@ -12,10 +12,10 @@ module MLPWrapper #(parameter
 ) (
     input clk,                                          // Clock
     input rst,                                          // Asynchronous reset
-    input [1:0] curr_layer,                             // Current Layer
+    input [2:0] curr_layer,                             // Current Layer
     input inc_addr,                                     // Increment address count
-    input [size_of_hidden_layer - 1 : 0] ld_en,         // load hidden result i
-    output [input_size-1 : 0] addr_cnt,
+    input [size_of_hidden_layer + 1 : 0] ld_en,         // load hidden result i
+    output [clog2_number_of_test_cases-1 : 0] addr_cnt,
     output [clog2_number_of_test_cases-1 : 0] correct   // number of correct predictions
 );
     // Check if label prediction was correct
@@ -68,10 +68,11 @@ module MLPWrapper #(parameter
     always @(addr_cnt, eq) begin
         $display("Index[%d]:\t\tHDL = %d\tReal = %d", addr_cnt, label, labels[addr_cnt]);
     end
+
     //---------------------------MLP Unit---------------------------//
     Counter  #(10) acc_cnter(
         .clk(clk),
-        .clk_en(eq && (curr_layer == 3'd3)),
+        .clk_en(eq && (curr_layer == 3'd5)),
         .rst(rst),
         .count(correct)
     );

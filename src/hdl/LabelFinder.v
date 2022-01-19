@@ -1,7 +1,7 @@
 // Finds respective labels of given numbers
 // Uses one hot vector
-module LabelFinder #(parameter n = 8, number_of_labels = 10, clog2_number_of_labels = 4, input_size = 10) (
-    input [n*input_size-1:0] numbers, // Predicted Probabilities
+module LabelFinder #(parameter n = 8, number_of_labels = 10, clog2_number_of_labels = 4, size_of_output_layer = 10) (
+    input [n*size_of_output_layer-1:0] numbers, // Predicted Probabilities
     output reg [clog2_number_of_labels-1:0] label// Final labels
 );
     reg [clog2_number_of_labels-1:0] max_prob_idx;

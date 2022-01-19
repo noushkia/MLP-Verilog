@@ -1,6 +1,6 @@
 module MLP #(parameter
     n = 8,
-    input_size = 10,
+    input_size = 8,
     number_of_inputs = 62,
     size_of_hidden_layer = 30,
     size_of_output_layer = 10,
@@ -16,10 +16,10 @@ module MLP #(parameter
 );
 
     wire [clog2_number_of_test_cases-1 : 0] correct;
-    wire [size_of_hidden_layer - 1 : 0] ld_en;
+    wire [size_of_hidden_layer + 1 : 0] ld_en; // 2 extra bits
     wire inc_addr, init;
-    wire [1:0] curr_layer;
-    wire [9 : 0] addr_cnt;
+    wire [2:0] curr_layer;
+    wire [clog2_number_of_test_cases -1 : 0] addr_cnt;
 
     MLPController #(n, number_of_test_cases) controller(
         .start(start),
